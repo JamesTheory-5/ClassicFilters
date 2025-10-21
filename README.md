@@ -1,7 +1,5 @@
 ### Classic Filters: No Blackbox Function Filter Design
 
-### Butterworth Filters
-
 ### Bessel Filters
 This approach allows you to design **Bessel filters** directly in Python, making use of **SciPy's built-in functions** for generating Bessel polynomial roots, performing frequency-domain transformations, and converting the filter coefficients into **biquad SOS form** for efficient filtering. The **Bessel filter** is particularly useful for applications requiring **minimal phase distortion** and smooth transient responses, such as **audio processing** and **signal conditioning**.
 
